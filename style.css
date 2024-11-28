@@ -31,8 +31,8 @@ body {
     background-color: #983131;
     margin-right: 10px;
     border-radius: 35px;
+    margin-bottom: 25px;
 }
-
   .title {
     font-size: 2.4rem;
     font-weight: bold;
@@ -102,3 +102,19 @@ body {
       font-size: 1.5rem;
     }
   }
+
+  footer {
+    background-color: #cfcfcf;
+    min-width: -webkit-fill-available;
+    border-top: 1px solid #939393;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer > p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Nunito', sans-serif;
+}
